@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    background: url(assets/images/background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 25px;
+    background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0)
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 0px 0px 10px 10px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    position: relative;
+    top: 3px;
+    left: -10px;
+    height: 48px;
+}
+
+.name {
+    font-size: 32px;
+    color: white;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.25);
+    text-decoration: none;
+    font-weight: 500;
+    cursor: default;
+}
+
+.navbar a {
+    position: relative;
+    font-size: 18px;
+    color: white;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    text-decoration: none;
+    font-weight: 400;
+    margin: 25px;
+}
+
+.navbar a::before {
+    content: "";
+    position: absolute;
+    top: 125%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: crimson;
+    transition: 0.3s;
+}
+
+.navbar a:hover::before {
+    width: 100%;
+}
+
+.glass {
+    position: absolute;
+    width: 550px;
+    height: 575px;
+    background: linear-gradient(
+        135deg,
+        rgba(255, 255, 255, 0.1),
+        rgba(255, 255, 255, 0)
+    );
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(15px);
+    border-radius: 20px;
+    border: 2px solid rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.25);
+    z-index: -100;
+}
+
+.header-text {
+    margin-top: 5%;
+    padding: 5%;
+    color: white;
+    z-index: 1;
+}
+
+.header-text h1 {
+    font-size: 128px;
+}
+
+.header-text h2 {
+    font-size: 89px;
+}
+
+.header-text h3 {
+    font-size: 128px;
+    color: darkcyan;
+    text-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
