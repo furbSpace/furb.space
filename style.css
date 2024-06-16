@@ -1,0 +1,82 @@
+body {
+    margin-left: 15%;
+    margin-right: 15%;
+    background: rgb(32, 32, 32);
+}
+
+main {
+    padding: 5%;
+    color: white;
+}
+
+h1 {
+    font-family: "work sans";
+    font-size: 36pt;
+}
+
+h2 {
+    font-family: "work sans";
+    font-size: 30pt;
+}
+
+h3 {
+    font-family: "work sans";
+    font-size: 24pt;
+}
+
+h4 {
+    font-family: "work sans";
+    font-size: 18pt;
+}
+
+h5 {
+    font-family: "work sans";
+    font-size: 14pt;
+}
+
+h6 {
+    font-family: "work sans";
+    font-size: 12pt;
+}
+
+p {
+    font-family: "arvo";
+    font-size: 12pt;
+}
+
+.header {
+    position: fixed;
+    left: 15%;
+    top: 0px;
+    width: 70%;
+    padding: 24px;
+    backdrop-filter: blur(12px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+#nameplate {
+    font-family: "work sans";
+    font-weight: 500;
+    font-size: 18pt;
+    text-decoration: none;
+    color: white;
+}
+
+.navbar a {
+    padding: 24px;
+    text-decoration: none;
+    color: white;
+    font-family: "work sans";
+    font-weight: 500;
+    font-size: 14pt;
+}
+
+.navbar a:hover {
+    color: slateblue;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 12px;
+}
