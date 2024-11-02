@@ -1,20 +1,40 @@
-body{
-    max-width: 960px;
+body {
+    max-width: 827px;
     margin: auto;
-    padding-left: 30px;
-    padding-right: 30px;
-    background-color: rgb(245,235,216);
-    color: rgb(63,72,40);
-    font-family: "Noto Serif";
-    font-size: 12pt;
+    background-color: rgb(241,233,211);
+    color: rgb(61,73,41);
 }
 
-a{
-    color: rgb(63,72,40);
+p {
+    font-family: "Noto Serif";
+    font-size: 17px;
+}
+
+a {
+    color: rgb(61,73,41);
     text-decoration: underline;
     font-weight: bold;
 }
 
-.box{
-    margin-bottom: 60px;
+.ascii {
+    font-family: monospace;
+    white-space: pre;
+}
+
+#header {
+    text-align: center;
+}
+
+#leftknot {
+    float: left;
+    margin-right: 53px;
+}
+
+#rightknot {
+    float: right;
+    margin-left: 53px;
+}
+
+#gryphon {
+    text-align: center;
 }
