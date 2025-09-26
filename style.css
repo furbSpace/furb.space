@@ -1,0 +1,17 @@
+body{
+    background-color: #f5ebd8;
+}
+h1{
+    color: #454a2e;
+}
+p{
+    color: #454a2e;
+}
+a{
+    color: #454a2e;
+    text-decoration: none;
+    font-weight: bold;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+}
